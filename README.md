@@ -23,7 +23,13 @@ scp image.tar user@otherhost:/path/to/image
 # How to build jenkins image for Raspberry Pi 3 from docker file?
 
 ``
-docker build -t "jenkins-pi:dockerfile" .
+docker build -t "jenkins-pi:latest" .
+``
+
+### push to repository
+
+``
+docker push yaoliu/jenkins:latest
 ``
 
 ### Dockerfile
